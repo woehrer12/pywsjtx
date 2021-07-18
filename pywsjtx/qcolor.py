@@ -21,6 +21,34 @@ class QCOLOR:
         return QCOLOR(QCOLOR.SPEC_RGB, 255, 255, 0, 0)
 
     @classmethod
+    def Orange(cls):
+        return QCOLOR(QCOLOR.SPEC_RGB, 255, 255, 128, 0)
+
+    @classmethod
+    def Yellow(cls):
+        return QCOLOR(QCOLOR.SPEC_RGB, 255, 255, 255, 0)
+
+    @classmethod
+    def Green(cls):
+        return QCOLOR(QCOLOR.SPEC_RGB, 255, 0, 255, 0)
+
+    @classmethod
+    def BabyBlue(cls):
+        return QCOLOR(QCOLOR.SPEC_RGB, 255, 0, 255, 255)
+
+    @classmethod
+    def Blue(cls):
+        return QCOLOR(QCOLOR.SPEC_RGB, 255, 0, 0, 255)
+
+    @classmethod
+    def Purple(cls):
+        return QCOLOR(QCOLOR.SPEC_RGB, 255, 255, 0, 255)
+
+    @classmethod
+    def Grey(cls):
+        return QCOLOR(QCOLOR.SPEC_RGB, 255, 128, 128, 128)    
+    
+    @classmethod
     def RGBA(cls, alpha, red, green, blue):
         return QCOLOR(QCOLOR.SPEC_RGB, alpha, red, green, blue)
 
